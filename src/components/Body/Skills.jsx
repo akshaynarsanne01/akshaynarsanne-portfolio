@@ -8,7 +8,7 @@ const classes = {
   subtitle: 'text-lg mt-2 mb-8 italic text-center font-bold text-black',
   skillsContainer: 'skills-class grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4 md:px-8 lg:px-16 mx-auto max-w-screen-xl',
   skillCard: 'bg-transparent text-white border border-rgb rounded-lg p-4 min-h-[300px] max-h-[400px] shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl hover:border-rgb',
-  cardTitle: 'text-2xl font-semibold mb-4 text-center',
+  cardTitle: 'text-2xl font-semibold text-gray-600 mb-4 text-center',
   cardContainer: 'card-container flex flex-wrap gap-2 justify-center items-center',
   card: 'card bg-white text-gray-800 p-2 rounded-lg flex items-center opacity-80',
   scrollContainer: 'overflow-y-auto max-h-[400px]',

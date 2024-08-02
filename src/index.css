@@ -26,15 +26,17 @@
 body {
   overflow-x: hidden;
   scroll-behavior: smooth;
+  margin: 0; /* Reset margin for the body */
 }
 
-.hover-border-rgb:hover {
-  border-color: rgb(1, 255, 0); /* Different RGB color on hover */
-}
-
-/* Apply animated background to the body or any container as needed */
+/* Apply animated background to the body */
 body.animated-background {
   background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #fbc2eb, #a6c0fe);
   background-size: 400% 400%;
   animation: gradientAnimation 10s ease infinite;
+}
+
+/* Hover effect for borders */
+.hover-border-rgb:hover {
+  border-color: rgb(1, 255, 0); /* Different RGB color on hover */
 }

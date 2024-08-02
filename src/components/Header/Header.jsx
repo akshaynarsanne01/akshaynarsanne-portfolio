@@ -8,9 +8,9 @@ const styles = {
 const Header = () => {
   return (
     <div className={styles.header}>
-        <button className={styles.gmailLink}>
-          Contact Me
-        </button>
+        <a href="https://github.com/akshaynarsanne01" target="_blank" rel="noopener noreferrer">
+          <img src="/images/github-icon.svg" alt="GitHub" className="w-6 h-6" />
+        </a>
         <div className={styles.logo}>
             <span>Portfolio</span>
         </div>

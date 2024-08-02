@@ -28,15 +28,16 @@ const Section1 = () => {
                 <div className={tailwindClasses.textSection}>
                     <h1 className={tailwindClasses.heading1}>
                         Hello!<br />
-                        I'm Akshay Narsanne,<br /> a Full-Stack Developer based in Pune, Maharashtra.
+                        I&apos;m Akshay Narsanne,<br /> a Full-Stack Developer based in Pune, Maharashtra.
                     </h1>
                     <h3 className={tailwindClasses.uniqueHeading}>
                         Crafting Solutions<br />
                         With Precision and Passion
                     </h3>
                     <h2 className={tailwindClasses.subText}>
-                        I'm passionate about creating user-friendly and efficient solutions that seamlessly integrate with diverse systems and platforms.
+                        I&apos;m passionate about creating user-friendly and efficient solutions that seamlessly integrate with diverse systems and platforms.
                     </h2>
+
                 </div>
             </article>
         </div>

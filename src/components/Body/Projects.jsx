@@ -2,11 +2,11 @@ import { useEffect, useRef, useState } from 'react';
 import PropTypes from 'prop-types';
 
 const classes = {
-  backgroundContainer: 'relative w-full h-screen overflow-hidden flex items-center justify-center',
+  backgroundContainer: 'relative w-full min:h-screen max-h-full overflow-hidden flex items-center justify-center mb-10 pb-10',
   article: 'relative z-10 transition-transform duration-1000 ease-out opacity-100 transform translate-x-0',
   title: 'text-3xl font-bold mb-4 text-center text-black-800 mt-32',
   subtitle: 'text-lg mt-2 mb-8 italic text-center text-black break-words sm:w-[50%] mx-auto',
-  skillsContainer: 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-6 px-4 md:px-8 lg:px-16 mx-auto max-w-screen-xl',
+  skillsContainer: 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-6 px-4 md:px-8 lg:px-16 mx-auto max-w-screen-xl overflow-visible',
   skillCard: 'relative bg-transparent text-white border border-rgb rounded-lg p-4 min-h-[300px] max-h-[400px] shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl hover:border-rgb',
   cardTitle: 'text-2xl font-semibold text-gray-600 mb-4 text-center',
   cardContainer: 'flex flex-wrap gap-2 justify-center items-center',

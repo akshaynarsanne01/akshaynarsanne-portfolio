@@ -20,7 +20,8 @@ function App() {
       <Navbar />
       <div className="container p-4 text-black">
         <Routes>
-          <Route path="/" element={<BlogHome />} />
+           <Route path="/" element={<Home />} />
+          <Route path="/blog" element={<BlogHome />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/create" element={<CreatePost />} />
